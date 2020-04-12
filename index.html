@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Talk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    
+             
+        <div class="container">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center">
+              <h5 class="card-title">"Lets Talk"</h5>
+            </div>
+            <form>
+   
+              <div class="form-group">
+                <label for="inputState">Choose your language</label>
+                <select id="inputState" class="form-control">
+                  <option value="en">English (en)</option>
+                  <option value="ar">Arabic (ar)</option>
+                  <option value="zh">Chinese (zh)</option>
+                  <option value="fr">French (fr)</option>
+                  <option value="de">German (de)</option>
+                  <option value="el">Greek (el)</option>
+                  <option value="hi">Hindi (hi)</option>
+                  <option value="ja">Japanese (ja)</option>
+                  <option value="ko">Korean (ko)</option>
+                  <option value="pl">Polish (pl)</option>
+                  <option value="ru">Russian (ru)</option>
+                  <option value="es">Spanish (es)</option>
+                  <option value="sv">Swedish (sv)</option>
+                  <option value="tr">Turkish (tr)</option>
+                  <option value="ur">Urdu (ur)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+              <label for="inputState">Enter your message</label>
+              <textarea class="form-control" rows="4" name="text" id="text"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="outputState">Translate to</label>
+                <select id="outputState" class="form-control">
+                  <option value="hi">Hindi (hi)</option>
+                  <option value="ar">Arabic (ar)</option>
+                  <option value="zh">Chinese (zh)</option>
+                  <option value="en">English (en)</option>
+                  <option value="fr">French (fr)</option>
+                  <option value="de">German (de)</option>
+                  <option value="el">Greek (el)</option>
+                  <option value="ja">Japanese (ja)</option>
+                  <option value="ko">Korean (ko)</option>
+                  <option value="pl">Polish (pl)</option>
+                  <option value="ru">Russian (ru)</option>
+                  <option value="es">Spanish (es)</option>
+                  <option value="sv">Swedish (sv)</option>
+                  <option value="tr">Turkish (tr)</option>
+                  <option value="ur">Urdu (ur)</option>
+                </select>
+              </div>
+
+              <div class="text-center">
+            <a id="submit" class="btn btn-light text-white">Translate</a>
+          </div>
+          </form>
+
+
+            <div class="form-group">
+              <label class="heading" for="TranslatedMessage">Translated Message</label>
+              <textarea class="form-control" rows="4" id="result"></textarea>
+            </div>
+            
+
+            
+        </div>
+      </div>
+
+       
+    </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
