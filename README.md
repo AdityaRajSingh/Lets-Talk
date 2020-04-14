@@ -5,4 +5,4 @@ Lets Talk.
 
 ## Lets-Talk
 
-![](https://github.com/AdityaRajSingh/Random-Advice-Slip/blob/master/images/Screenshot.png)
+![](https://github.com/AdityaRajSingh/Lets-Talk/blob/master/images/Screenshot.png)
